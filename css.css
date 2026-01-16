@@ -19,9 +19,8 @@
 }
 
 .logo {
-    background-image: url("/images/logo2-removebg-preview.png");
+    background-image: url("images/logo2-removebg-preview.png");
     background-size: contain;
-    /* important for logos */
     background-repeat: no-repeat;
     background-position: center;
     width: 75%;
@@ -35,9 +34,7 @@
 
 .border:hover {
     cursor: pointer;
-
     border: 2px solid white;
-
 }
 
 /* nav box2 */
@@ -45,7 +42,6 @@
     color: #cccccc;
     font-size: 0.85rem;
     margin-left: 20px;
-
 }
 
 .country {
@@ -55,7 +51,6 @@
 .address_icon {
     display: flex;
     align-items: center;
-
 }
 
 .nav-search {
@@ -65,13 +60,9 @@
     width: 620px;
     height: 40px;
     border-radius: 4px;
-    /* width: 600px;
-    height: 30px;
-    border-radius: 4px; */
 }
 
 .nav-search:hover {
-
     border: 1px solid rgb(241, 172, 42);
 }
 
@@ -86,7 +77,6 @@
 
 .search-input {
     width: 100%;
-    /* tutorial uses this */
     font-size: 1rem;
     border: none;
     padding-left: 10px;
@@ -105,22 +95,17 @@
     width: 45px;
     font-size: 1.2rem;
     color: black;
-
-
 }
 
 .sigin {
     color: white;
     font-size: 0.85rem;
     margin-right: 13px;
-
 }
 
 .Account-div {
     display: flex;
     align-items: center;
-
-
 }
 
 .dropdown {
@@ -164,19 +149,15 @@
     font-size: 0.85rem;
 }
 
-/* .deal{
-    display: flex;
-    justify-content: flex-start;
-} */
+/* hero section */
 .hero-section {
-    background-image: url("/images/main.jpg");
+    background-image: url("images/main.jpg");
     height: 400px;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     position: relative;
-
 }
 
 .hero-msg {
@@ -189,7 +170,6 @@
     align-items: center;
     justify-content: center;
     font-size: 0.85rem;
-
 }
 
 .hero-msg a {
@@ -204,35 +184,40 @@
 }
 
 .box {
-    /* border: 1px solid black; */
     height: 420px;
     width: 23%;
     padding: 20px 0px 15px;
     background-color: white;
     margin-top: 15px;
 }
-.image{
-    background-size:cover;
+
+.image {
+    background-size: cover;
     align-items: center;
     height: 300px;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-.box-content{
+
+.box-content {
     margin-left: 20px;
     margin-right: 20px;
 }
-.shop-items{
+
+.shop-items {
     color: #007185;
 }
-.shop-items:hover{
+
+.shop-items:hover {
     cursor: pointer;
     color: black;
 }
-footer{
+
+footer {
     margin-top: 15px;
 }
-.foot-panel1{
+
+.foot-panel1 {
     height: 50px;
     background-color: #37475A;
     color: white;
@@ -240,14 +225,24 @@ footer{
     align-items: center;
     justify-content: center;
 }
-.foot-panel2{
+
+.foot-panel2 {
     background-color: #222f3d;
     color: white;
     height: 500px;
     display: flex;
-     justify-content: space-evenly;
-     
+    justify-content: space-evenly;
 }
+
+ul {
+    margin-top: 50px;
+}
+
+ul p {
+    font-weight: bold;
+    margin-left: 9px;
+}
+
 ul a {
     display: block;
     font-size: 0.85rem;
@@ -255,14 +250,8 @@ ul a {
     color: #dddddd;
     margin-left: 10px;
 }
-ul{
-    margin-top: 50px;
-}
-ul p{
-    font-weight: bold;
-        margin-left: 9px;
-}
-.foot-panel3{
+
+.foot-panel3 {
     background-color: #222f3d;
     color: white;
     border-top: 0.5px solid white;
@@ -271,48 +260,51 @@ ul p{
     justify-content: center;
     align-items: center;
     gap: 10px;
-
 }
-.foot-logo{
-    background-image: url("/images/logo2-removebg-preview.png");
+
+.foot-logo {
+    background-image: url("images/logo2-removebg-preview.png");
     background-size: contain;
-    /* important for logos */
     background-repeat: no-repeat;
     background-position: center;
     width: 100px;
     height: 90%;
 }
-.glob-eng{
+
+.glob-eng,
+.united-state {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 8px;
-    width: 130px;
-    border: 1px solid #656464;
-    border-radius: 3px;    
-}
-.united-state{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 8px;
-     width: 150px;
-    border: 1px solid #656464;
-    border-radius: 3px;    
-}
-.glob-eng p ,.united-state p{
-    margin-left: 10px;
-}
-.pkr{
     border: 1px solid #656464;
     border-radius: 3px;
 }
-.pkr p{
-    padding: 8px;
-    width: 200px;    
+
+.glob-eng {
+    width: 130px;
 }
- 
-.foot-panel4{
+
+.united-state {
+    width: 150px;
+}
+
+.glob-eng p,
+.united-state p {
+    margin-left: 10px;
+}
+
+.pkr {
+    border: 1px solid #656464;
+    border-radius: 3px;
+}
+
+.pkr p {
+    padding: 8px;
+    width: 200px;
+}
+
+.foot-panel4 {
     background-color: #0f1111;
     color: white;
     display: flex;
@@ -322,9 +314,9 @@ ul p{
     flex-direction: column;
     line-height: 2;
 }
-.pages,.copyright{
+
+.pages,
+.copyright {
     font-size: 0.8rem;
     text-align: center;
-    /* padding-top: 25px; */
 }
- 
